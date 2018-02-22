@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency("json", "~> 1.7")
-  spec.add_dependency("json-schema", "~> 2.2")
+  spec.add_dependency("json-schema", '2.8.0')
   spec.add_dependency("thor", "~> 0.19")
   spec.add_dependency("sinatra", "~> 1.4")
   spec.add_dependency("hashie", ">= 3.0")
